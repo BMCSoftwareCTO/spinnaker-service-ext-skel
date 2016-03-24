@@ -58,3 +58,8 @@ This represents each additional subproject that is being augmented.
     id 'nebula.provided-base' version '3.0.3' // if you want provided-base
   }
   ```
+  
+## Build
+
+To create the Debian package run from the repo root path:
+`./gradlew buildDeb`
