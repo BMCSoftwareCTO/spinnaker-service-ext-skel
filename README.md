@@ -16,7 +16,7 @@ The below steps will use clouddriver as an example.
 ```
    git remote add origin git@github.com:BMCSoftwareCTO/clouddriver-bmc.git
 ```
-4. `rm -fr README` or update it to reflect the service extension details
+4. `rm -fr README.md` or update it to reflect the service extension details
 
 ## Dependencies
 For each of the subprojects like clouddriver-web, etc, the Gradle build script applies a plugin called nebula.provided-base:
