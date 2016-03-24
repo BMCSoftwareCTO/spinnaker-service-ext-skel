@@ -1,0 +1,17 @@
+// Specify name of service
+rootProject.name="spinnakersvc"
+
+// Specify subprojects
+include 'spinnakersvc-web', 'spinnakersvc-security'
+
+def setBuildFile(project) {
+  project.buildFileName = "${project.name}.gradle"
+  project.children.each {
+    setBuildFile(it)
+  }
+}
+
+rootProject.children.each {
+  setBuildFile(it)
+}
+

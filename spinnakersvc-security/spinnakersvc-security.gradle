@@ -1,0 +1,11 @@
+plugins {
+  id 'nebula.provided-base' version '3.0.3' // if you want provided-base
+}
+
+dependencies {
+  provided spinnaker.dependency('groovy')
+  spinnaker.group('jackson')
+
+  provided spinnaker.dependency('kork')
+  provided spinnaker.dependency('slf4j')
+}
