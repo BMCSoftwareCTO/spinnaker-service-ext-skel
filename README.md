@@ -9,7 +9,7 @@ The below steps will use clouddriver as an example.
 ## Creating a Spinnaker Service Extension Repo
 
 1. Create Spinnaker service extension repo called clouddriver-bmc
-2. git clone this repo
+2. git clone the skeleton repo (a.k.a spinnaker-service-ext-skel)
 3. Change the remote of the clone to point to the created Spinnaker service extension repo
 
 ## Dependencies
