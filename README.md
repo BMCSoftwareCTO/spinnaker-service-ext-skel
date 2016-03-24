@@ -76,5 +76,9 @@ This represents each additional subproject that is being augmented.
 
 ## Build
 
+You will need to do an initial commit locally: `git commit -m "Initial commit"`. Later you can add to this local commit before pushing with the command: `git commit --amend`
+
 To create the Debian package run from the repo root path:
 `./gradlew buildDeb`
+
+The Debian package is located in: `clouddriver-web/build/distributions` and named something like `spinnaker-clouddriver-bmc_0.1.0-4_all.deb`
