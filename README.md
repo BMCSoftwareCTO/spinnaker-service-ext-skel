@@ -83,3 +83,7 @@ To create the Debian package run from the repo root path:
 `./gradlew buildDeb`
 
 The Debian package is located in: `clouddriver-web/build/distributions` and named something like `spinnaker-clouddriver-bmc_0.1.0-4_all.deb`
+
+## Initial Push to Remote Git Repo
+
+`git push -f origin master`
